@@ -14,9 +14,7 @@
     } else if ($_GET['error'] == "nouser") {
       echo '<p class="loginerror">User doesnt exist!</p>';
     } 
-  } else if ($_GET['login'] == "success") {
-    echo '<p class="loginsuccess">Login Successfull!</p>';
-  }
+  } 
 
   if (isset($_SESSION['userId'])) {
     echo '<p class="log-status">You are logged in!</p>';
